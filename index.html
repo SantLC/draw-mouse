@@ -9,27 +9,32 @@
             }
             h1{
                 color: black;
-                text-align: center;
-                font-size: 60px;
+                font-size: 30px;
+                size: 50px;
             }
             p{
                 font-size: 40px;
-                text-align: center;
-            }
-            div{
-                text-align: center;
+                size: 40px;
             }
             canvas{
                 background-color: white;
             }
+            div{
+                text-align: left;
+            }
+        
         </style>
     </head>
     <body>
-        <h1>Move your mouse to draw:</h1>
         <div>
-            <canvas width="1000" height="500" id="canvas"></canvas>
+        <canvas width="1000" height="500" id="canvas"></canvas>
         </div>
-        <p>This is your drawing</p> 
+        <h1>
+            Move your mouse to draw<br/>
+            Enter a color: <input type="text"id="txt"></input>
+            <input type="button" value="Confirm Color"id="confi"></p>
+            <input type="button" value="Erase Screen" id="del"></p>
+        </h1>
         <script src="dibujoclick.js"></script>
     </body> 
 </html>
